@@ -1,0 +1,47 @@
+
+.descriptionbox {
+    margin: 100px 150px; 
+  }
+  
+  .descriptionbox-description {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px; 
+    border: 1px solid #fabf5a; 
+    padding: 20px; 
+   padding-bottom: 15px;
+  }
+  
+  .description-item {
+    text-align: center; 
+  }
+  
+  .shipping {
+    width: 100px; 
+    height: 80px; 
+    margin-bottom: 10px; 
+  }
+  
+  @media (max-width: 1280px) {
+    .descriptionbox {
+      margin: 60px 60px; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .descriptionbox {
+      margin: 60px 20px; 
+    }
+  
+    .descriptionbox-description {
+      font-size: 14px;
+      padding: 24px; 
+      padding-bottom: 40px;
+    }
+  
+    .shipping {
+      width: 60px;
+      height: auto; 
+    }
+  }
+  
